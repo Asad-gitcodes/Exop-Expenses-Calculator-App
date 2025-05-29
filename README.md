@@ -48,13 +48,15 @@ Clone the project to your local machine:
 git clone https://github.com/yourusername/expense-tracker-app.git
 cd mobile
 
-### Install Dependencies
+# Install Dependencies
 npm install 
 npx expo
 
-open new terminal
+# open new terminal
 
 cd backend
+
+npm install
 
 npm run start
 
