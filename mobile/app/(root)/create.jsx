@@ -6,6 +6,7 @@ import {styles} from "../../assets/styles/create.style";
 import {COLORS } from "../../constants/colors";
 import { Ionicons } from '@expo/vector-icons';
 import { ActivityIndicator } from 'react-native';
+import { API_URL } from '../../constants/api';
 
 //import { TouchableOpacity } from 'react-native';
 
@@ -50,7 +51,7 @@ const CreateScreen = () => {
         ? -Math.abs(parseFloat(amount))
         : Math.abs(parseFloat(amount));
 
-      const response = await fetch(`${process.env.API_URL}/transactions`, {
+      const response = await fetch(`${API_URL}/transactions`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
