@@ -38,3 +38,23 @@ Make sure you have the following tools installed:
 - **Expo CLI**: You can install it by running:
   ```bash
   npm install -g expo-cli
+## Installation
+
+### Clone the Repository
+
+Clone the project to your local machine:
+
+```bash
+git clone https://github.com/yourusername/expense-tracker-app.git
+cd mobile
+
+### Install Dependencies
+npm install 
+npx expo
+
+open new terminal
+
+cd backend
+
+npm run start
+
