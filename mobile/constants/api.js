@@ -1,0 +1,1 @@
+export const API_URL = "https://expo-mobole-app-backend.onrender.com/api";
